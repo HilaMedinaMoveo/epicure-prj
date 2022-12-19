@@ -1,2 +1,10 @@
+//variabels
+@import "./../variabels/variables.scss";
+
+//helpers
+@import "./../helpers/helpers.scss";
+
+//css file
 @import "../../components/navbar/Navbar.scss";
 @import "../../components/hero/Hero.scss";
+@import "../../components/upperHomepageCarrousel/UpperComponentCarrousel.scss";
