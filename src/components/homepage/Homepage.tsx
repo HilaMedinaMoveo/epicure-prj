@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../hero/Hero";
+import LowerComponentCarruosel from "../lowerComponentCarruosel/LowerComponentCarruosel";
 import UpperComponentCarrousel from "../upperHomepageCarrousel/UpperComponentCarrousel";
 
 const Homepage = () => {
@@ -7,6 +8,7 @@ const Homepage = () => {
 		<div>
 			<Hero></Hero>
 			<UpperComponentCarrousel></UpperComponentCarrousel>
+			<LowerComponentCarruosel></LowerComponentCarruosel>
 		</div>
 	);
 };
