@@ -1,4 +1,5 @@
 import React from "react";
+import ChefOfTheWeek from "../chefoftheweek/ChefOfTheWeek";
 import Hero from "../hero/Hero";
 import LowerComponentCarruosel from "../lowerComponentCarruosel/LowerComponentCarruosel";
 import SignatureDish from "../signaturedish/SignatureDish";
@@ -11,6 +12,7 @@ const Homepage = () => {
 			<UpperComponentCarrousel></UpperComponentCarrousel>
 			<LowerComponentCarruosel></LowerComponentCarruosel>
 			<SignatureDish></SignatureDish>
+			<ChefOfTheWeek></ChefOfTheWeek>
 		</div>
 	);
 };
