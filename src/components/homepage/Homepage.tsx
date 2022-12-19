@@ -1,5 +1,6 @@
 import React from "react";
 import ChefOfTheWeek from "../chefoftheweek/ChefOfTheWeek";
+import EpicureLogo from "../epicurelogo/EpicureLogo";
 import Hero from "../hero/Hero";
 import LowerComponentCarruosel from "../lowerComponentCarruosel/LowerComponentCarruosel";
 import SignatureDish from "../signaturedish/SignatureDish";
@@ -13,6 +14,7 @@ const Homepage = () => {
 			<LowerComponentCarruosel></LowerComponentCarruosel>
 			<SignatureDish></SignatureDish>
 			<ChefOfTheWeek></ChefOfTheWeek>
+			<EpicureLogo></EpicureLogo>
 		</div>
 	);
 };
