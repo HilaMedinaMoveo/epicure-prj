@@ -3,16 +3,14 @@
 	width: 100%;
 	max-width: 35.31rem;
 	background: url("./hero-picture1.png") no-repeat center center/cover;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include basic-flex-style;
 }
 .hero-text {
 	border: 1px red solid;
 	padding: 5%;
 	width: 21rem;
 	height: 9rem;
-	background-color: #ffffff;
+	background-color: $whiteColor;
 	opacity: 88%;
 }
 .search-and-h1 {
